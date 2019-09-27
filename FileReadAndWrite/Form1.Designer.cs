@@ -131,6 +131,7 @@
             this.btnReadFileSelect.TabIndex = 1;
             this.btnReadFileSelect.Text = "파일 선택";
             this.btnReadFileSelect.UseVisualStyleBackColor = true;
+            this.btnReadFileSelect.Click += new System.EventHandler(this.BtnReadFileSelect_Click);
             // 
             // btnReadText
             // 
@@ -140,15 +141,16 @@
             this.btnReadText.TabIndex = 2;
             this.btnReadText.Text = "불러오기";
             this.btnReadText.UseVisualStyleBackColor = true;
+            this.btnReadText.Click += new System.EventHandler(this.BtnReadText_Click);
             // 
             // txtReadText
             // 
-            this.txtReadText.Location = new System.Drawing.Point(7, 36);
+            this.txtReadText.Location = new System.Drawing.Point(8, 36);
             this.txtReadText.Multiline = true;
             this.txtReadText.Name = "txtReadText";
             this.txtReadText.ReadOnly = true;
             this.txtReadText.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.txtReadText.Size = new System.Drawing.Size(383, 175);
+            this.txtReadText.Size = new System.Drawing.Size(382, 175);
             this.txtReadText.TabIndex = 3;
             // 
             // txtWriteFile
@@ -167,6 +169,7 @@
             this.btnWriteFileSelect.TabIndex = 1;
             this.btnWriteFileSelect.Text = "파일 선택";
             this.btnWriteFileSelect.UseVisualStyleBackColor = true;
+            this.btnWriteFileSelect.Click += new System.EventHandler(this.BtnWriteFileSelect_Click);
             // 
             // btnWriteText
             // 
@@ -176,14 +179,15 @@
             this.btnWriteText.TabIndex = 2;
             this.btnWriteText.Text = "저장하기";
             this.btnWriteText.UseVisualStyleBackColor = true;
+            this.btnWriteText.Click += new System.EventHandler(this.BtnWriteText_Click);
             // 
             // txtWriteText
             // 
-            this.txtWriteText.Location = new System.Drawing.Point(9, 37);
+            this.txtWriteText.Location = new System.Drawing.Point(8, 38);
             this.txtWriteText.Multiline = true;
             this.txtWriteText.Name = "txtWriteText";
             this.txtWriteText.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.txtWriteText.Size = new System.Drawing.Size(381, 174);
+            this.txtWriteText.Size = new System.Drawing.Size(382, 175);
             this.txtWriteText.TabIndex = 3;
             // 
             // FormFile
